@@ -5,10 +5,14 @@ import { HttpModule } from '@angular/http';
 import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
+import { RealtimeOrderBookComponent } from './realtime-order-book/realtime-order-book.component';
+import { OrderBookSnapshotComponent } from './order-book-snapshot/order-book-snapshot.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    RealtimeOrderBookComponent,
+    OrderBookSnapshotComponent
   ],
   imports: [
     BrowserModule,
