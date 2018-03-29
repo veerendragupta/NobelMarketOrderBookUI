@@ -41,3 +41,14 @@ cd NobelMarketOrderBookUI
 npm install
 
 ng serve
+
+ng g c realtime-order-book
+ng g c order-book-snapshot
+
+ng generate service realtimeOrderBookService
+ng generate service orderBookSnapshotService
+
+https://material.angular.io/guide/getting-started
+npm install --save @angular/material @angular/cdk
+npm install --save @angular/animations
+
